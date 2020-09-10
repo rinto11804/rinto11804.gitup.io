@@ -22,20 +22,9 @@ body{
     mix-blend-mode: darken;
     border-radius: 5px;
 }
-.heading
-{
-    position: absolute;
-    left: 10vh;
-    top: 13vh;
-    text-shadow:inset 5px 5px 18px rgba(0, 0, 0, 9),
-                inset -5px -5px 18px rgba(243, 242, 242,0.9); 
-    color:#131314;
-    border-radius: 7px;
-    box-shadow: 5px 5px 18px rgba(0, 0, 0, 4),
-    -5px -5px 18px rgba(243, 242, 242,0.3);
-}
+
  ul,a{
-     padding:2vh;
+     padding-left:3.5vh;
      line-height: 4.5vh;
      text-decoration: none;
      list-style: none;
@@ -53,9 +42,9 @@ body{
  {
      
     position: absolute;
-    top: 50vh;
-     height: 55vh;
-     width: 46vh;
+    top: 58vh;
+     height: 60vh;
+     width: 100%;
      border-radius: 3vh;
      box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.2),
      -5px -5px 18px rgba(243, 242, 242,0.3);
@@ -70,8 +59,8 @@ body{
     height: 8vh;
     width: 8vh;
     border-radius: 20vh;
-    left:33vh;
-    top: 53vh;
+    left:40vh;
+    top: 65vh;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.1),
                 -5px -5px 18px rgba(243, 242, 242,0.9);
     font-size: 3.5vh;
@@ -86,23 +75,25 @@ body{
 }
 .w
 {
-  font-size: 2.8vh;  
+  font-size: 3.5vh;  
   position: absolute;
-  left: 1vh;
+  left: 2.5vh;
+  top:50vh
+
 }
 .happy1
 {
     border-radius: 10%;
-    width: 12.9vh;
+    width: 15vh;
     position: absolute;
-    left: 16.7vh;
-    top: 52vh;
+    left: 20vh;
+    top: 60vh;
 }
 .happy1p
 {
     font-size: 2vh;
     position: absolute;
-    top: 74vh;
+    top: 80vh;
     left: 0.8vh;
     text-align: center;
     font-weight: 500;
@@ -114,23 +105,22 @@ body{
 .hna1
 {
     position: absolute;
-    top:62vh;
-    left: 35.5vh;
-
+    top:74vh;
+    left: 42.5vh;
     font-size: 1.5vh;
 }
-.container2,.container3
+.container2,.container3,.container4
 {
     display: inline-block;
     position: absolute;
-    top: 110vh;
-     height: 58vh;
-     width: 46vh;
+    top: 125vh;
+     height: 65vh;
+     width: 100%;
      border-radius: 3vh;
      box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.2),
      -5px -5px 18px rgba(243, 242, 242,0.3); 
 }
-#c,#d
+#c,#d,#e
 {
     display: inline-block;
     display: inline-block;
@@ -141,62 +131,109 @@ body{
     height: 8vh;
     width: 8vh;
     border-radius: 20vh;
-    left:33vh;
-    top: 115vh;
+    left:40vh;
+    top: 130vh;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.1),
                 -5px -5px 18px rgba(243, 242, 242,0.9);
     font-size: 3.5vh;
     font-family: 'Verdana';
     color: #221f1fd0;
 }
-#c:active,#d:active
+#c:active,#d:active,#e:active
 {
     display: inline-block;
    transition: 5s;
     box-shadow:inset 5px 5px 18px rgba(0, 0, 0, 0.1),
                inset -5px -5px 18px rgba(243, 242, 242,0.9);
 }
-.happy2,.happy3
+.happy2,.happy3,.happy4
 {
     display: inline-block;
     border-radius: 10%;
-    width: 12.9vh;
+    width: 15vh;
     position: absolute;
-    left: 16.7vh;
-    top: 113vh;
+    left: 20vh;
+    top: 128vh;
 }
-.hna2,.hna3
+.hna2,.hna3,.hna4
 {
     position: absolute;
-    top:125vh;
-    left: 35.5vh;
+    top:140vh;
+    left: 42.5vh;
     font-size: 1.5vh;
 }
-.happy2p,.happy3p
+.happy2p,.happy3p,.happy4p
 {
     display: inline-block;
     font-size: 2vh;
     position: absolute;
-    top: 138vh;
+    top: 155vh;
     left: 0.8vh;
     text-align: center;
     font-weight: 500;
 }
-.hs2,.hs3
+.hs2,.hs3,.hs4
 {
     display: inline-block;
    font-size: 5vh; 
 }
 /* section id=happy3 */
-
-@media(min-width:940px)
+.happy3
 {
-    .heading
-    {
-        font-size: 10vh;
-        left: 52vh;
-        top:40vh;
-    }
+    width: 25vh;
+    height: 20vh;
+    position: absolute;
+    top:200vh;
+    left: 15vh;
+}
+.container3
+{
+    position: absolute;
+    top:195vh
+}
+.happy3p
+{
+    top:220vh
+}
+#d
+{
+    position: absolute;
+    top:200vh;
+    left:42vh;
+}
+.hna3
+{
+    position: absolute;
+    top:209vh;
+    left: 44vh;
+}
+/* section id=happy4 */
+.container4
+{
+    position: absolute;
+    top: 106em;
+}
+.happy4
+{
+    position: absolute;
+    top: 110em;
+    width: 27vh;
+    height: 20vh;
+    left: 13vh;
+}
+#e
+{
+    position: absolute;
+    top: 80em;
+    left: 42vh;
+}
+.happy4p
+{
+    top: 150em;
+}
+
+@media(min-width:1440px)
+{
     ul,a
     {
         font-size: 3.6vh;
@@ -205,16 +242,16 @@ body{
     }
     /* section happy1 */
     .w{
-        font-size: 5vh;
-        top:145vh;
-        left:60vh;
+        font-size: 6vh;
+        top:143vh;
+        left:58vh;
     }
     .container
 
     {
        
         display:inline-block;
-        top:160vh;
+        top:158vh;
         left: 45vh;
         width:157vh;
     }
@@ -297,7 +334,7 @@ body{
     .container3
     {
         display:inline-block;
-        top:134em;
+        top:135em;
         left: 45vh;
         width:158vh;
     }
@@ -328,9 +365,18 @@ body{
     {  
         left: 5vh;
         width: 35vh;
-        height: 30vh;
+        height: 31vh;
         top:143em;
         
+    }
+    /* section  haapy4 */
+    .container4
+    {
+        display:inline-block;
+        top:167em;
+        left: 45vh;
+        width:158vh;
+
     }
 
 }

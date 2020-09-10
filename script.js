@@ -1,29 +1,39 @@
-let v=0;
+let a=0;
 function my()
 {
-    if(v<10)
+    if(a<10)
     {
-        v=v+1;
+        a=a+1;
     }
-    document.getElementById("b").value=v;
+    document.getElementById("b").value=a;
 }
-let s=0;
+let b=0;
 function my1()
 {
-    if(s<10)
+    if(b<10)
     {
-        s=s+1;
+        b=b+1;
     }
-    document.getElementById("c").value=s;
+    document.getElementById("c").value=b;
 } 
 
-let z=0;
+let c=0;
 function my2()
 {
-    if(z<10)
+    if(c<10)
     {
-        z=z+1;
+        c=c+1;
     }
-    document.getElementById("d").value=z;
+    document.getElementById("d").value=c;
+} 
+        
+let d=0;
+function my3()
+{
+    if(d<10)
+    {
+        d=d+1;
+    }
+    document.getElementById("e").value=d;
 } 
         
